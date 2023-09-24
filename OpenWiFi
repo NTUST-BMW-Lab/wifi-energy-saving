@@ -1,9 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2023-09-24T16:38:14.682Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.8.2" etag="ecWuT22WjbTvQaCyKCgB" type="github">
-  <diagram name="Page-1" id="S9Pnf11kHY12gi7uIplO">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-09-24T16:58:22.064Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="vg3za_2_MKVMxG13cpil" version="21.8.2" type="github">
+  <diagram name="System Architecture" id="S9Pnf11kHY12gi7uIplO">
+    <mxGraphModel dx="1304" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="paEf9I3maHAz7gEjCDR1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="paEf9I3maHAz7gEjCDR1-1" target="paEf9I3maHAz7gEjCDR1-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paEf9I3maHAz7gEjCDR1-1" value="Aruba AP Controller" style="shape=mxgraph.cisco.wireless.wlan_controller;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="159" width="101" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="paEf9I3maHAz7gEjCDR1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="paEf9I3maHAz7gEjCDR1-3" target="paEf9I3maHAz7gEjCDR1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paEf9I3maHAz7gEjCDR1-3" value="PoE Switch" style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="162" width="101" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="paEf9I3maHAz7gEjCDR1-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="paEf9I3maHAz7gEjCDR1-4" target="paEf9I3maHAz7gEjCDR1-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="67" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="paEf9I3maHAz7gEjCDR1-4" value="Aruba AP" style="shape=mxgraph.cisco.wireless.wireless_transport;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="77" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="paEf9I3maHAz7gEjCDR1-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="paEf9I3maHAz7gEjCDR1-5" target="paEf9I3maHAz7gEjCDR1-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paEf9I3maHAz7gEjCDR1-5" value="Aruba AP" style="shape=mxgraph.cisco.wireless.wireless_transport;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="77" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="paEf9I3maHAz7gEjCDR1-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="paEf9I3maHAz7gEjCDR1-6" target="paEf9I3maHAz7gEjCDR1-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="307" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="paEf9I3maHAz7gEjCDR1-6" value="Aruba AP" style="shape=mxgraph.cisco.wireless.wireless_transport;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="77" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="paEf9I3maHAz7gEjCDR1-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="paEf9I3maHAz7gEjCDR1-11" target="paEf9I3maHAz7gEjCDR1-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paEf9I3maHAz7gEjCDR1-11" value="Data Crawler&lt;br&gt;Server" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="349" y="276" width="43" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="paEf9I3maHAz7gEjCDR1-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="paEf9I3maHAz7gEjCDR1-14" target="paEf9I3maHAz7gEjCDR1-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paEf9I3maHAz7gEjCDR1-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="paEf9I3maHAz7gEjCDR1-14" target="paEf9I3maHAz7gEjCDR1-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="513" y="70" />
+              <mxPoint x="230" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="paEf9I3maHAz7gEjCDR1-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="paEf9I3maHAz7gEjCDR1-14" target="paEf9I3maHAz7gEjCDR1-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paEf9I3maHAz7gEjCDR1-14" value="OpenWiFi" style="shape=mxgraph.cisco.servers.www_server;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="273.5" width="66" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="paEf9I3maHAz7gEjCDR1-16" value="MongoDB" style="shape=mxgraph.cisco.storage.relational_database;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="400" width="66" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="paEf9I3maHAz7gEjCDR1-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="paEf9I3maHAz7gEjCDR1-21" target="paEf9I3maHAz7gEjCDR1-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="paEf9I3maHAz7gEjCDR1-21" value="AI Server" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="491.5" y="395.5" width="43" height="62" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
